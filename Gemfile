@@ -48,3 +48,7 @@ group :development do
 
   gem 'spring-commands-rspec', group: :development
 end
+
+group :test do
+  gem 'coveralls', require: false
+end
